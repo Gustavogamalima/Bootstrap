@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Shop - Login</title>
+    <link rel="shortcut icon" href="../images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto+Slab:wght@900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header-margin">
+            <div class="row">
+                <div class="col">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-warning bg-gradient">
+                        <a class="navbar-brand" href="#"><img class="img-fluid logo-navbar" src="../images/logo.png"
+                                alt="logo pet-shop"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav">
+                                <a class="nav-item nav-link active word-color" href="index.html">Página Principal</a>
+                                <a class="nav-item nav-link word-color" href="list.html">Lista de Produtos</a>
+                                <a class="nav-item nav-link word-color" href="table.html">Tabelas de Preços</a>
+                                <a class="nav-item nav-link word-color" href="login.html">Login</a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section>
+                <div class="row">
+                    <div class="col">
+                        <h2 class="word-color d-flex p-2 justify-content-center word-color">Criar uma conta é
+                            rápido, fácil e gratuito</h2>
+                    </div>
+                </div>
+                <form action="">
+                    <div class="row">
+                        <div class="col-12 col-sm-6">
+                            <div class="input-group mb-3">
+                                <label class="input-group-text" id="basic-addon1" for="name">Nome e sobrenome</label>
+                                <input type="text" class="form-control" placeholder="Digite seu nome e sobrenome"
+                                    aria-label="Username" aria-describedby="basic-addon1" id="name">
+                            </div>
+
+                            <div class="input-group mb-3">
+                                <label class="input-group-text" id="basic-addon1" for="email">E-mail</label>
+                                <input type="email" class="form-control" placeholder="Digite seu e-mail"
+                                    aria-label="email" aria-describedby="basic-addon1" id="email">
+                            </div>
+
+
+                            <label for="tel" class="form-label">Celular</label>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="basic-addon3">+55</span>
+                                <input type="tel" class="form-control" id="tel" aria-describedby="basic-addon3"
+                                    placeholder="DDD + Celular">
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <label for="tel" class="form-label">Telefone <span
+                                    class="text-muted">(opcional)</span></label>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="basic-addon3">+55</span>
+                                <input type="tel" class="form-control" id="tel" aria-describedby="basic-addon3"
+                                    placeholder="DDD + Telefone">
+                            </div>
+                            <label for="sexy">Sexo <span class="text-muted">(opcional)</span></label>
+                            <select class="form-select" aria-label="sexy" id="sexy">
+                                <option selected value="0">Escolha o sexo</option>
+                                <option value="1">Masculino</option>
+                                <option value="2">Feminino</option>
+                            </select>
+                            <div class="form-group py-2">
+                                <label for="exampleInputPassword1">Senha</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1"
+                                    placeholder="Digite a senha">
+                            </div>
+                            <div class="form-check py-2">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Eu li e concordo com os termos de
+                                    uso</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary mb-4">Enviar</button>
+                        </div>
+                    </div>
+                </form>
+            </section>
+        </main>
+        <footer class="text-center text-lg-start bg-light text-muted">
+            <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+                <div class="me-5 d-none d-lg-block">
+                    <span>Conecte-se conosco nas redes sociais:</span>
+                </div>
+                <div>
+                    <a href="" class="me-4 text-reset hover-blue">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="" class="me-4 text-reset hover-blue">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="" class="me-4 text-reset hover-blue">
+                        <i class="fab fa-google"></i>
+                    </a>
+                    <a href="" class="me-4 text-reset hover-blue">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="" class="me-4 text-reset hover-blue">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="" class="me-4 text-reset hover-blue">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </section>
+            <section class="m-auto">
+                <div class="container text-center text-md-start mt-5">
+                    <div class="row mt-3">
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                <i class="fas fa-gem me-3"></i>Pet Shop
+                            </h6>
+                            <p>
+                                Só quem é apaixonado por animais sabe: a relação de amor e cumplicidade que temos com
+                                nossos bichinhos de estimação é um vínculo único! Por essa razão, não medimos esforços
+                                para oferecer o que há de melhor para trazer ainda mais alegria e qualidade de vida.
+                            </p>
+                        </div>
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                Produtos
+                            </h6>
+                            <p class="hover-blue">
+                                <a href="#!" class="text-reset">Ração para Cachorro</a>
+                            </p>
+                            <p class="hover-blue">
+                                <a href="#!" class="text-reset">Arranhador para Gatos</a>
+                            </p>
+                            <p class="hover-blue">
+                                <a href="#!" class="text-reset">Aquários</a>
+                            </p>
+                            <p class="hover-blue">
+                                <a href="#!" class="text-reset">Cama para Cachorro</a>
+                            </p>
+                        </div>
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                Departamentos
+                            </h6>
+                            <p class="hover-blue">
+                                <a href="#!" class="text-reset">Cachorros</a>
+                            </p>
+                            <p class="hover-blue">
+                                <a href="#!" class="text-reset">Gatos</a>
+                            </p>
+                            <p class="hover-blue">
+                                <a href="#!" class="text-reset">Peixes</a>
+                            </p>
+                            <p class="hover-blue">
+                                <a href="#!" class="text-reset">Pássaros</a>
+                            </p>
+                        </div>
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                Contato
+                            </h6>
+                            <p><i class="fas fa-home me-3"></i> Endereço: Rua Dr. Miguel Paulo Capalbo, 135 - Pari - São
+                                Paulo - SP - CEP: 03035-040</p>
+                            <p>
+                                <i class="fas fa-envelope me-3"></i>
+                                petshop@email.com
+                            </p>
+                            <p><i class="fas fa-phone me-3"></i> (11) 98870-7770</p>
+                            <p><i class="fas fa-print me-3"></i> (33) 98810-0073</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+                Copyright© 2022 Pet Center Comércio e Participações S/A - Todos os direitos reservados
+                <a class="text-reset fw-bold hover-blue" href="#">petshop.com</a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,34 @@
+:root{
+    --color-primary: #FFD400;
+    --font-family-primary:'Josefin Sans', sans-serif;
+    --color-font-menu: #16479D;
+    --component: component;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--font-family-primary);
+}
+
+.header-margin{
+    margin-bottom: 2vh;
+}
+
+.word-color{
+    font-weight: 800;
+    color: var(--color-font-menu);
+}
+
+.logo-navbar{
+    width: 100px;
+    padding: 10px;
+}
+
+.hover-blue:hover{
+    color: var(--color-font-menu) !important;
+}
